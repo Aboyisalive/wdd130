@@ -6,7 +6,21 @@ main img {
     height: auto;
     border-radius: 50%;
     padding: 5px;
+    border: #333;
+    box-shadow: #333 2px 2px 5px;
     background: linear-gradient(45deg, steelblue, turquoise);
+}
+h1{
+  color: darkgray;
+}
+nav {
+  background-color: steelblue;
+  padding: 10px;
+}
+nav a {
+  color: white;
+  padding: 5px;
+  display: block;
 }
 aside {
     width: 20rem;
